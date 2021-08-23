@@ -9,7 +9,7 @@ dotenv.config();
 // Create a bot instance
 const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 // Log our bot in
-bot.login(process.env.DISCORD_BOT_TOKEN);
+bot.login('ODc2MjAzMDIwNzY4MTMzMjAx.YRgppw.p5a1rWECR1B0oOjdEChptrhDDa0');
 // Log to console when bot is ready
 
 async function getPlay(){
